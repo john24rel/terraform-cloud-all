@@ -29,3 +29,4 @@ module "my-cluster" {
   asg_max_size         = 5
   asg_min_size         = 1
   region               = "us-east-2"
+	}

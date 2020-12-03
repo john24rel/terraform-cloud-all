@@ -1,4 +1,4 @@
-variable cluster {} 
+variable cluster_name {} 
 variable cluster_version {}
 variable subnets {
     type = list

@@ -1,4 +1,5 @@
-source = "../"
+module "esk-cluster" {
+  source  = "john24rel/esk-cluster/aws"
 region = "us-east-2"
 cluster_name = "my-cluster"
 cluster_version = "1.14"

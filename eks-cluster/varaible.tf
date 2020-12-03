@@ -1,9 +1,21 @@
-variable cluster_name {} 
-variable cluster_version {}
-variable subnets {
-    type = list
+variable "cluster_name" {
+    type = string
+    }
+variable "cluster_version" {
+   type = string
+    }
+variable "subnets" {
+    type = list(string)
 }
-variable vpc_id {}
-variable instance_type {}
-variable asg_max_size {}
-variable asg_min_size {}
+variable "vpc_id" {
+    type = string
+    }
+variable "instance_type" {
+    type = string
+    }
+variable "asg_max_size" {
+    type = string
+    }
+variable "asg_min_size" {
+    type = string
+    }

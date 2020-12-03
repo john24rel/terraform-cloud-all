@@ -2,9 +2,9 @@ module "db" {
 	source = "john24rel/instance/rds"
 	region = "us-east-2"
 	subnet_ids = [
-		"subnet-09e046e79485b9194", 
-		"subnet-0d27bd3f9c6a10988", 
-		"subnet-0533f931432ff4966"
+		"subnet-0ef4a790d04655f17", 
+		"subnet-042f3148fa63ea57e", 
+		"subnet-0c1faf9f9e20d6aaa",
 	]
 	security_group_name = "db"
 	allowed_hosts = [

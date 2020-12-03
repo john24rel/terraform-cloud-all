@@ -4,7 +4,7 @@ module "db" {
 	subnet_ids = [
 		"subnet-09e046e79485b9194", 
 		"subnet-0d27bd3f9c6a10988", 
-		"subnet-0533f931432ff4966",
+		"subnet-0533f931432ff4966"
 	]
 	security_group_name = "db"
 	allowed_hosts = [
